@@ -7,8 +7,8 @@ function Content(){
 
     return(
         <div id="containerContent">
-            <div class="wrapperWSWord">
-                <div class="nameWord">
+            <div className="wrapperWSWord">
+                <div className="nameWord">
                     Kế Toán Không Chỉ Là Số – Mà Là Đạo Đức & Giá Trị
                 </div>
             </div>
@@ -21,7 +21,7 @@ function Content(){
                     <div id="WrapperLogo">
                         <img src={logo} id="imgLogo"/>
                     </div>
-                    <div class="smallTitle">
+                    <div className="smallTitle">
                         Làm Nghề Có Tâm = Sống Nghề Có Tầm
                     </div>
                 </div>
